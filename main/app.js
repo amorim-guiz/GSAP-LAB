@@ -1,10 +1,13 @@
 gsap.to(
     ".box",
     {
-        x: 300,
-        y: 300,
-        delay: 0.1,
-        duration: 30,
+        x: 400,
+        y: 400,
+        duration: 5,
+        delay: 1,
         backgroundColor: "red",
+        rotationX: 180,
+        rotationY: 180,
+        opacity: 0.5,
     }
 )
